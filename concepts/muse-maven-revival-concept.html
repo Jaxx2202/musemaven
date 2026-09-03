@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muse Maven Mother's Day Campaign — The Revival Bundle | LIVINGSTONdrive</title>
+<meta name="description" content="Muse Maven Mother's Day 2027 campaign — The Muse Revival Series bundle, staged first for Black Friday 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,600;0,9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --white:#FFFFFF;
+    --paper-raise:#F5F6F1;
+    --panel:#FBFBF8;
+    --emerald:#0F5C43;
+    --emerald-soft:#137A57;
+    --emerald-100:#E4F1EA;
+    --plum:#5A2A54;
+    --plum-soft:#7A3B72;
+    --plum-100:#F4E8F1;
+    --ink:#1C1E19;
+    --ink-soft:#5B6056;
+    --hair:#E1E3DB;
+    --max:1120px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--white);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{font-family:'Fraunces',serif; margin:0; font-weight:600; color:var(--emerald);}
+  .wrap{max-width:var(--max); margin:0 auto; padding:0 28px;}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--plum);
+    font-weight:500;
+  }
+  a{color:inherit; text-decoration:none;}
+  :focus-visible{outline:3px solid var(--emerald-soft); outline-offset:3px;}
+  section{padding:88px 0;}
+  section.tight{padding:56px 0;}
+
+  /* HERO */
+  .hero{border-bottom:1px solid var(--hair); padding:80px 0 56px; background:var(--paper-raise);}
+  .hero h1{font-size:clamp(34px,5.6vw,58px); line-height:1.05; letter-spacing:-0.01em; max-width:18ch;}
+  .hero .line2{font-style:italic; font-weight:600; color:var(--plum);}
+  .hero p.dek{max-width:60ch; margin-top:22px; font-size:17px; color:var(--ink-soft);}
+  .hero .meta{margin-top:26px; font-size:13px; color:var(--plum); font-weight:600; font-family:'IBM Plex Mono',monospace; letter-spacing:.04em;}
+
+  .badges{display:flex; gap:14px; flex-wrap:wrap; margin-top:30px;}
+  .badge{
+    border:1px solid var(--hair); background:var(--white); padding:8px 16px;
+    font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:.04em; color:var(--emerald);
+  }
+
+  /* BUNDLE SUMMARY */
+  .summary{border-bottom:1px solid var(--hair);}
+  .summary .wrap{display:grid; grid-template-columns:repeat(5,1fr); gap:0;}
+  .sum-stat{padding:32px 16px; border-left:1px solid var(--hair); text-align:center;}
+  .sum-stat:first-child{border-left:none;}
+  .sum-stat .num{font-family:'Fraunces',serif; font-size:clamp(20px,2.6vw,30px); font-weight:600; color:var(--emerald);}
+  .sum-stat .num.plum{color:var(--plum);}
+  .sum-stat .label{margin-top:6px; font-size:11px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.05em;}
+  @media (max-width:900px){ .summary .wrap{grid-template-columns:repeat(3,1fr);} }
+  @media (max-width:700px){ .summary .wrap{grid-template-columns:repeat(2,1fr);} }
+
+  /* SECTION LABEL */
+  .kicker{display:flex; align-items:center; gap:14px; margin-bottom:20px;}
+  .kicker .idx{font-family:'IBM Plex Mono',monospace; font-size:13px; color:var(--plum); letter-spacing:.06em;}
+  .kicker .rule{flex:1; height:1px; background:var(--hair);}
+  h2.h-section{font-size:clamp(24px,3.2vw,34px);}
+  .lede{max-width:64ch; color:var(--ink-soft); font-size:16.5px; margin-top:16px;}
+
+  .exec-summary{background:var(--panel); border:1px solid var(--hair); border-left:4px solid var(--emerald); padding:28px 30px; margin-top:8px;}
+  .exec-summary .es-row{display:grid; grid-template-columns:140px 1fr; gap:16px; padding:10px 0; border-top:1px solid var(--hair);}
+  .exec-summary .es-row:first-child{border-top:none;}
+  .exec-summary .es-k{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--plum); padding-top:2px;}
+  .exec-summary .es-v{font-size:15px; color:var(--ink);}
+  @media (max-width:600px){ .exec-summary .es-row{grid-template-columns:1fr;} }
+  .gap-tags-label{font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; color:var(--ink-soft); margin-top:14px; display:block;}
+  .gap-tags{display:flex; gap:8px; flex-wrap:wrap; margin-top:10px;}
+  .gap-tag{font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; padding:4px 9px; border-radius:3px; border:1px solid;}
+  .gap-tag.reinforces{background:var(--paper-raise); border-color:var(--hair); color:var(--ink-soft);}
+
+  /* PRODUCT SEQUENCE */
+  .sequence{margin-top:44px; display:flex; flex-direction:column; gap:0;}
+  .product{
+    display:grid; grid-template-columns:160px 1fr auto; gap:28px; align-items:center;
+    padding:28px 0; border-top:1px solid var(--hair);
+  }
+  .sequence .product:last-child{border-bottom:1px solid var(--hair);}
+  .product .thumb{
+    width:160px; height:160px; border:1px solid var(--hair); background:var(--paper-raise);
+    display:flex; align-items:center; justify-content:center; overflow:hidden;
+  }
+  .product .thumb img{width:100%; height:100%; object-fit:contain; mix-blend-mode:multiply;}
+  .product .step{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--plum-soft); letter-spacing:.06em;}
+  .product h3{font-size:21px; margin-top:4px; color:var(--emerald);}
+  .product .tag{
+    display:inline-block; margin-top:8px; font-family:'IBM Plex Mono',monospace; font-size:10.5px;
+    letter-spacing:.06em; text-transform:uppercase; color:var(--emerald); background:var(--emerald-100);
+    padding:4px 9px; border-radius:3px;
+  }
+  .product p.desc{margin:12px 0 0; font-size:14.5px; color:var(--ink-soft); max-width:52ch;}
+  .product .price-col{text-align:right; white-space:nowrap;}
+  .product .price{font-family:'Fraunces',serif; font-size:22px; font-weight:600; color:var(--ink);}
+  .product a.link{display:block; margin-top:8px; font-size:12px; color:var(--plum); border-bottom:1px solid var(--plum-soft);}
+  @media (max-width:680px){
+    .product{grid-template-columns:96px 1fr; grid-template-areas:"thumb name" "thumb price"; row-gap:8px;}
+    .product .thumb{width:96px; height:96px; grid-area:thumb;}
+    .product .price-col{text-align:left; grid-area:price;}
+  }
+
+  /* ROUTINE / ORDER OF USE */
+  .routine{margin-top:40px; display:flex; flex-direction:column;}
+  .routine-step{display:grid; grid-template-columns:56px 1fr; gap:22px; padding:22px 0; border-top:1px solid var(--hair);}
+  .routine-step:last-child{border-bottom:1px solid var(--hair);}
+  .r-num{
+    width:40px; height:40px; border-radius:50%; background:var(--emerald); color:#fff;
+    display:flex; align-items:center; justify-content:center; font-family:'Fraunces',serif; font-weight:600; font-size:16px;
+  }
+  .r-when{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em; color:var(--plum); text-transform:uppercase;}
+  .r-body h3{font-size:19px; margin-top:4px; color:var(--emerald);}
+  .r-prod{font-size:13px; font-weight:600; color:var(--ink); margin-top:2px;}
+  .r-body p{margin:8px 0 0; font-size:14.5px; color:var(--ink-soft); max-width:60ch;}
+  @media (max-width:600px){ .routine-step{grid-template-columns:40px 1fr;} }
+
+  /* FORMULATOR'S NOTE */
+  .formulator-note{
+    margin-top:40px; background:var(--panel); border:1px solid var(--hair); border-left:4px solid var(--plum);
+    padding:24px 26px;
+  }
+  .formulator-note .fn-label{
+    font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--plum); font-weight:600;
+  }
+  .formulator-note h4{font-family:'Fraunces',serif; font-size:16px; font-weight:600; color:var(--ink); margin:14px 0 4px;}
+  .formulator-note h4:first-of-type{margin-top:14px;}
+  .formulator-note p{margin:0 0 4px; font-size:14px; color:var(--ink-soft); max-width:70ch;}
+
+  /* GIFT WITH PURCHASE */
+  .gwp-tiers{display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:36px;}
+  .gwp-card{background:var(--panel); border:1px solid var(--hair); border-top:4px solid var(--plum); padding:26px 22px; text-align:center;}
+  .gwp-card .thresh{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-soft);}
+  .gwp-card .spend{font-family:'Fraunces',serif; font-size:24px; font-weight:600; color:var(--ink); margin:8px 0 14px;}
+  .gwp-card .gift-val{font-family:'Fraunces',serif; font-size:19px; font-weight:600; color:var(--plum);}
+  .gwp-card .gift-label{font-size:12.5px; color:var(--ink-soft); margin-top:4px;}
+  @media (max-width:760px){ .gwp-tiers{grid-template-columns:1fr;} }
+
+  /* RITUAL STORY */
+  .story{background:var(--paper-raise); border-top:1px solid var(--hair); border-bottom:1px solid var(--hair);}
+  .story .grid{display:grid; grid-template-columns:1fr 1fr; gap:48px;}
+  .story h3{font-size:20px; color:var(--plum);}
+  .story p{color:var(--ink-soft); font-size:15.5px; margin-top:12px;}
+  @media (max-width:820px){ .story .grid{grid-template-columns:1fr;} }
+
+  /* INVESTMENT */
+  .price-compare{display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:36px;}
+  .price-card{background:var(--panel); border:1px solid var(--hair); padding:32px 28px;}
+  .price-card.hero-price{border-top:4px solid var(--emerald);}
+  .price-card.compare-price{border-top:4px solid var(--hair);}
+  .price-card .k{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-soft);}
+  .price-card .v{font-family:'Fraunces',serif; font-size:32px; font-weight:600; margin:10px 0 8px; color:var(--emerald);}
+  .price-card.compare-price .v{color:var(--ink-soft); text-decoration:line-through; font-weight:400;}
+  .price-card p{margin:0; font-size:14px; color:var(--ink-soft);}
+  .save-tag{display:inline-block; margin-top:14px; background:var(--plum); color:#fff; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.05em; padding:5px 12px; border-radius:3px;}
+  .note{max-width:640px; margin:22px auto 0; font-size:13.5px; font-style:italic; color:var(--ink-soft); text-align:center;}
+
+  .crosslinks{border-top:1px solid var(--hair); background:var(--paper-raise);}
+  .crosslinks .wrap{padding:36px 28px; display:flex; gap:16px; flex-wrap:wrap; justify-content:center;}
+  .xlink{background:var(--white); border:1px solid var(--hair); padding:14px 20px; font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:.03em; color:var(--emerald); text-decoration:none; border-radius:4px;}
+  .xlink.current{background:var(--emerald); color:#fff; border-color:var(--emerald);}
+  @media (max-width:700px){ .price-compare{grid-template-columns:1fr;} }
+
+  /* CTA / FOOTER */
+  .cta{text-align:center; background:var(--emerald); color:#fff;}
+  .cta h2{color:#fff;}
+  .cta p{color:var(--emerald-100); margin-top:14px; font-size:16px;}
+  .contact-cta{margin-top:36px; padding-top:32px; border-top:1px solid rgba(255,255,255,.25); max-width:420px; margin-left:auto; margin-right:auto;}
+  .contact-cta .cc-label{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--emerald-100); opacity:.85;}
+  .contact-cta .cc-name{font-family:'Fraunces',serif; font-size:19px; font-weight:600; color:#fff; margin-top:10px;}
+  .contact-cta .cc-title{font-size:13px; color:var(--emerald-100); margin-top:2px;}
+  .contact-cta .cc-email{display:inline-block; margin-top:12px; color:#fff; font-family:'IBM Plex Mono',monospace; font-size:14px; text-decoration:underline; text-underline-offset:3px;}
+  .contact-cta .cc-phone{margin-top:6px; font-family:'IBM Plex Mono',monospace; font-size:13px; color:var(--emerald-100);}
+  footer{background:var(--white); border-top:1px solid var(--hair); color:var(--ink-soft); font-size:13px; padding:28px 0; text-align:center;}
+  footer b{color:var(--ink);}
+  .center-text{text-align:center;}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">LIVINGSTONdrive × Muse Maven Skintique</div>
+    <h1>Concept 03 <span class="line2">The Muse Revival Series</span></h1>
+    <p class="dek">A seven-product bundle built around Muse Maven's own catalog, first proven at Black Friday 2026, then restaged as a gift-forward companion for Mother's Day 2027.</p>
+    <div class="meta">CAMPAIGN PRESENTATION · PRESENTED JULY 2026</div>
+    <div class="badges">
+      <div class="badge">Black Friday 2026</div>
+      <div class="badge">Mother's Day 2027 companion</div>
+      <div class="badge">7 products, one ritual</div>
+    </div>
+  </div>
+</header>
+
+<div class="summary">
+  <div class="wrap">
+    <div class="sum-stat"><div class="num">7</div><div class="label">Products in bundle</div></div>
+    <div class="sum-stat"><div class="num plum">4</div><div class="label">Gaps this reinforces directly</div></div>
+    <div class="sum-stat"><div class="num plum">2</div><div class="label">Campaign moments</div></div>
+    <div class="sum-stat"><div class="num">1</div><div class="label">Ritual, front to back</div></div>
+    <div class="sum-stat"><div class="num">$488.99</div><div class="label">Per client value, est.</div></div>
+  </div>
+</div>
+
+<main>
+
+  <section>
+    <div class="wrap">
+      <div class="kicker"><span class="idx">EXECUTIVE SUMMARY</span><span class="rule"></span></div>
+      <div class="exec-summary">
+        <div class="es-row"><div class="es-k">Problem</div><div class="es-v">A proven seasonal campaign exists but hasn't been reintroduced, and Muse Maven's deep product catalog is underused as ongoing campaign material.</div></div>
+        <div class="es-row"><div class="es-k">Solution</div><div class="es-v">A seven-product bundle, sequenced with a clear anchor and a logical order of use, staged first for Black Friday 2026 and restaged as a gift-forward companion for Mother's Day 2027.</div></div>
+        <div class="es-row"><div class="es-k">Why It Works</div><div class="es-v">Same inventory, same margin structure, two full-price selling moments a year apart, without building a new campaign from scratch each time.</div></div>
+        <div class="es-row"><div class="es-k">Timeline</div><div class="es-v">Black Friday 2026 lead-up begins September, with the Mother's Day 2027 companion following early next year, timing still to confirm.</div></div>
+      </div>
+      <div class="gap-tags-label">Reinforces (collective effect, not a primary fix for any one gap)</div>
+      <div class="gap-tags">
+        <span class="gap-tag reinforces">Reviews &amp; Trust</span>
+        <span class="gap-tag reinforces">Word of Mouth</span>
+        <span class="gap-tag reinforces">Video</span>
+        <span class="gap-tag reinforces">Content &amp; SEO</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="kicker"><span class="idx">THE LINEUP</span><span class="rule"></span></div>
+      <h2 class="h-section">Seven products, presented in the order they'll launch.</h2>
+      <p class="lede">Sapphire leads as the bundle's anchor, it's the highest-value item and the most visually distinctive. Everything after it follows the order it's actually used in, so the sequence doubles as a memory aid, not just a product list.</p>
+
+      <div class="sequence">
+
+        <div class="product">
+          <div class="thumb"><img src="https://musemavenskin.com/cdn/shop/products/7_800x.png?v=1667407773" alt="Sapphire Luxe Serum"></div>
+          <div>
+            <div class="step">01 — THE ANCHOR</div>
+            <h3>Sapphire Luxe Serum</h3>
+            <span class="tag">Moisturizer</span>
+            <p class="desc">The bundle's flagship, held out front regardless of routine order. A hyaluronic-acid-forward hydrator built to bind moisture into the skin and support a firmer, more resilient barrier, with the brand's signature blue tint.</p>
+            <a class="link" href="https://musemavenskin.com/collections/moisturizers/products/sapphire-luxe-serum" target="_blank" rel="noopener">View product ↗</a>
+          </div>
+          <div class="price-col"><div class="price">$147.00</div></div>
+        </div>
+
+        <div class="product">
+          <div class="thumb"><img src="https://musemavenskin.com/cdn/shop/files/IMG_3087_800x.jpg?v=1700071486" alt="Muse Gentle Cleanser Gel"></div>
+          <div>
+            <div class="step">02 — THE RESET</div>
+            <h3>Muse Gentle Cleanser Gel</h3>
+            <span class="tag">Cleanser</span>
+            <p class="desc">From here on, the lineup follows the order it's actually used in. A gentle, botanical-based gel cleanser for normal-to-dry and sensitive skin, the everyday entry point that opens the routine.</p>
+            <a class="link" href="https://musemavenskin.com/collections/cleansers/products/muse-gentle-cleanser-gel" target="_blank" rel="noopener">View product ↗</a>
+          </div>
+          <div class="price-col"><div class="price">$39.00</div></div>
+        </div>
+
+        <div class="product">
+          <div class="thumb"><img src="https://musemavenskin.com/cdn/shop/products/3167093781_800x.png?v=1667679787" alt="Instant Oxygen Skin Revival Masque"></div>
+          <div>
+            <div class="step">03 — THE REVIVAL</div>
+            <h3>Instant Oxygen Skin Revival Masque</h3>
+            <span class="tag">Masque</span>
+            <p class="desc">A fast-acting, anti-fatigue mask used 1–2x a week, right after cleansing. The bundle's built-in "unbox and use tonight" moment, tailor-made for a Black Friday unboxing video.</p>
+            <a class="link" href="https://musemavenskin.com/collections/specialty/products/instant-oxygen-skin-revival-masque" target="_blank" rel="noopener">View product ↗</a>
+          </div>
+          <div class="price-col"><div class="price">$32.99</div></div>
+        </div>
+
+        <div class="product">
+          <div class="thumb"><img src="https://musemavenskin.com/cdn/shop/files/IMG_4946_800x.jpg?v=1711650769" alt="Glass Skin Drops"></div>
+          <div>
+            <div class="step">04 — THE TREATMENT</div>
+            <h3>Glass Skin Drops</h3>
+            <span class="tag">Retinol / Exfoliant</span>
+            <p class="desc">A lactic-acid resurfacing serum layered with a peptide complex, applied at night after cleansing. The visible-results piece of the ritual, smoother texture, softer lines.</p>
+            <a class="link" href="https://musemavenskin.com/collections/retinols/products/glass-skin-drops" target="_blank" rel="noopener">View product ↗</a>
+          </div>
+          <div class="price-col"><div class="price">$89.00</div></div>
+        </div>
+
+        <div class="product">
+          <div class="thumb"><img src="https://musemavenskin.com/cdn/shop/files/preview_images/a9bd838ba0454362a04601821ead1851.thumbnail.0000000000_800x.jpg?v=1761672556" alt="Pure Seed Oil"></div>
+          <div>
+            <div class="step">05 — THE SEAL</div>
+            <h3>Pure Seed Oil</h3>
+            <span class="tag">Facial Oil</span>
+            <p class="desc">A squalane-based facial oil built to lock in everything applied before it, the finishing step that carries the ritual from routine into indulgence.</p>
+            <a class="link" href="https://musemavenskin.com/collections/specialty/products/pure-seed-oil" target="_blank" rel="noopener">View product ↗</a>
+          </div>
+          <div class="price-col"><div class="price">$39.00</div></div>
+        </div>
+
+        <div class="product">
+          <div class="thumb"><img src="https://musemavenskin.com/cdn/shop/products/IMG_3197_800x.png?v=1668171653" alt="The Perfect Derma Body Set"></div>
+          <div>
+            <div class="step">06 — THE CLOSE</div>
+            <h3>The Perfect Derma Body Set</h3>
+            <span class="tag">System, 2-piece</span>
+            <p class="desc">A glycolic-acid body wash and lotion duo, used in the shower right after the face routine. The bundle's highest-ticket single item and its natural closer.</p>
+            <a class="link" href="https://musemavenskin.com/collections/systems/products/the-perfect-derma-body-set" target="_blank" rel="noopener">View product ↗</a>
+          </div>
+          <div class="price-col"><div class="price">$100.00</div></div>
+        </div>
+
+        <div class="product">
+          <div class="thumb"><img src="https://musemavenskin.com/cdn/shop/products/pixelcut_3_800x.png?v=1668169237" alt="Muse Maven Skin Turmeric Body Oil"></div>
+          <div>
+            <div class="step">07 — THE EXTENSION</div>
+            <h3>Turmeric Body Oil</h3>
+            <span class="tag">Body</span>
+            <p class="desc">Used as needed, the last layer of the ritual. A lightweight, turmeric-based body oil that widens the bundle's appeal beyond a strictly facial routine, gift-set friendly.</p>
+            <a class="link" href="https://musemavenskin.com/collections/specialty/products/muse-maven-skin-turmeric-body-oil" target="_blank" rel="noopener">View product ↗</a>
+          </div>
+          <div class="price-col"><div class="price">$42.00</div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="tight routine-section">
+    <div class="wrap">
+      <div class="kicker"><span class="idx">HOW IT WORKS</span><span class="rule"></span></div>
+      <h2 class="h-section">The bundle sells in this order. The skin uses it in a different one.</h2>
+      <p class="lede">The lineup above is built for merchandising, the hero item first. This is the actual routine, the order to hand to every customer so the bundle performs the way it's priced to.</p>
+
+      <div class="routine">
+        <div class="routine-step">
+          <div class="r-num">1</div>
+          <div class="r-body">
+            <div class="r-when">AM &amp; PM</div>
+            <h3>Cleanse</h3>
+            <div class="r-prod">Muse Gentle Cleanser Gel</div>
+            <p>Start every routine here. Clears the day or the night before without stripping the skin, so every product layered after it actually absorbs.</p>
+          </div>
+        </div>
+        <div class="routine-step">
+          <div class="r-num">2</div>
+          <div class="r-body">
+            <div class="r-when">1–2X / WEEK</div>
+            <h3>Revive</h3>
+            <div class="r-prod">Instant Oxygen Skin Revival Masque</div>
+            <p>Not a daily step. Kept for the mornings that need it, the anti-fatigue payoff the bundle is built to show off fastest.</p>
+          </div>
+        </div>
+        <div class="routine-step">
+          <div class="r-num">3</div>
+          <div class="r-body">
+            <div class="r-when">PM</div>
+            <h3>Treat</h3>
+            <div class="r-prod">Glass Skin Drops</div>
+            <p>Applied to clean, dry skin at night. The lactic acid and peptide complex do the visible-results work, texture and fine lines, while skin repairs overnight.</p>
+          </div>
+        </div>
+        <div class="routine-step">
+          <div class="r-num">4</div>
+          <div class="r-body">
+            <div class="r-when">AM &amp; PM</div>
+            <h3>Hydrate</h3>
+            <div class="r-prod">Sapphire Luxe Serum</div>
+            <p>Layers over the treatment step to bind moisture back in and support the barrier the acid just worked on. Compatible with any regimen, so it's safe both morning and night.</p>
+          </div>
+        </div>
+        <div class="routine-step">
+          <div class="r-num">5</div>
+          <div class="r-body">
+            <div class="r-when">AM &amp; PM</div>
+            <h3>Seal</h3>
+            <div class="r-prod">Pure Seed Oil</div>
+            <p>The last face step. A few drops locks in everything applied before it and is specifically formulated to reduce irritation from the acids and actives earlier in the routine.</p>
+          </div>
+        </div>
+        <div class="routine-step">
+          <div class="r-num">6</div>
+          <div class="r-body">
+            <div class="r-when">SHOWER + AFTER</div>
+            <h3>Complete</h3>
+            <div class="r-prod">The Perfect Derma Body Set</div>
+            <p>Body wash in the shower, lotion after. The full-body counterpart to the face routine, and the natural close of the ritual.</p>
+          </div>
+        </div>
+        <div class="routine-step">
+          <div class="r-num">7</div>
+          <div class="r-body">
+            <div class="r-when">AS NEEDED</div>
+            <h3>Extend</h3>
+            <div class="r-prod">Turmeric Body Oil</div>
+            <p>Takes the same ritual below the neck. Lightweight enough to close out either the AM or PM routine once the face steps are done.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="formulator-note">
+        <div class="fn-label">Formulator's Note</div>
+
+        <h4>On the PM-only timing for Glass Skin Drops</h4>
+        <p>Muse Maven's product page doesn't specify a time of day for this one. The PM placement above is a judgment call, not a stated direction: it's a 10% lactic acid (AHA) product, and AHAs generally increase sun sensitivity, so night use is the safer default. Worth confirming before this goes into customer-facing copy as an official recommendation.</p>
+
+        <h4>On calling this a "retinol" routine</h4>
+        <p>Glass Skin Drops sits in Muse Maven's Retinols collection, but by its own ingredient list it's a lactic acid and peptide serum, not a retinol. The only actual retinol in this bundle is inside The Perfect Derma Body Set lotion, and that's a body product, not a face treatment. Campaign copy should avoid promising "retinol for your face" anywhere this bundle is described.</p>
+
+        <h4>On sun sensitivity</h4>
+        <p>The Perfect Derma Body Set explicitly warns about AHA-related sun sensitivity and recommends SPF. Glass Skin Drops likely carries the same real-world caution, though her product page doesn't currently state it. Flagging as a possible gap to close on the product listing itself, separate from this bundle.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="story tight">
+    <div class="wrap">
+      <div class="kicker"><span class="idx">WHY THIS ORDER</span><span class="rule"></span></div>
+      <div class="grid">
+        <div>
+          <h3>For Black Friday 2026</h3>
+          <p>The Sapphire Luxe Serum leads because it's the highest-value single item and the most visually distinctive, the blue tint photographs well and gives the bundle a clear hero shot for paid and organic content. The Oxygen Masque mid-bundle gives shoppers an immediate, low-effort payoff the same night they unbox, which is exactly the kind of proof point that drives repeat Black Friday buyers into January restocks.</p>
+        </div>
+        <div>
+          <h3>For Mother's Day 2027</h3>
+          <p>The same seven products regift cleanly. Reframe the copy around "a ritual, not a routine," lead with the Body Set and Turmeric Oil for their gift-set visual weight, and let the Sapphire Serum stay the hero image. Same inventory, same margin, a second full-price selling moment without building a new bundle from scratch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap">
+      <div class="kicker"><span class="idx">THE BUNDLE VALUE</span><span class="rule"></span></div>
+      <h2 class="h-section">What the bundle is worth, and what it could sell for.</h2>
+      <div class="price-compare">
+        <div class="price-card compare-price">
+          <div class="k">Bought Individually</div>
+          <div class="v">$488.99</div>
+          <p>All seven products at current listed price, no bundling.</p>
+        </div>
+        <div class="price-card hero-price">
+          <div class="k">Suggested Bundle Price</div>
+          <div class="v">$349.00</div>
+          <p>A proposed anchor price to confirm against your margin, roughly 29% off individual pricing.</p>
+          <span class="save-tag">Save $139.99</span>
+        </div>
+      </div>
+      <p class="note">Bundle price is a starting suggestion, not a final number, confirm against your unit cost and desired margin before this goes live.</p>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap">
+      <div class="kicker"><span class="idx">GIFT WITH PURCHASE</span><span class="rule"></span></div>
+      <h2 class="h-section">She gets the bundle. You get something too.</h2>
+      <p class="lede">Reframed for who's actually buying: this is a Mother's Day purchase, meaning the customer is almost always shopping for someone else's self-care. The gift with purchase flips that, it's a self-care moment for the person doing the gifting, scaled to what they spend on her.</p>
+
+      <div class="gwp-tiers">
+        <div class="gwp-card">
+          <div class="thresh">Tier 1</div>
+          <div class="spend">Spend $100+ on her</div>
+          <div class="gift-val">$29.99 value, for you</div>
+          <div class="gift-label">e.g. Instant Oxygen Masque, real price $32.99, the closest single confirmed item, about $3 over this cap</div>
+        </div>
+        <div class="gwp-card">
+          <div class="thresh">Tier 2</div>
+          <div class="spend">Spend $200+ on her</div>
+          <div class="gift-val">$49.99 value, for you</div>
+          <div class="gift-label">e.g. Turmeric Body Oil, real price $42, one item, comfortably under this cap</div>
+        </div>
+        <div class="gwp-card">
+          <div class="thresh">Tier 3</div>
+          <div class="spend">Full Bundle · $349, on her</div>
+          <div class="gift-val">$69.99 value, for you</div>
+          <div class="gift-label">e.g. Pure Seed Oil, real price $39, one item, well under this cap, there's no single confirmed product between $42 and $89 on her site to fill the gap more closely</div>
+        </div>
+      </div>
+      <p class="note">The pitch is simple: "You're taking care of her. Let us take care of you." Positions the gift-with-purchase as self-care for the shopper, not an extra present for Mom, which is a different emotional trigger than a standard GWP and should read stronger in ad copy.</p>
+      <p class="note">Each gift is one physical item, priced at or under its tier's stated cap, not a bundled duo. Two real gaps this surfaced: no single confirmed product sits at or under $29.99 for Tier 1 (Instant Oxygen Masque is the closest, $32.99), and nothing sits between $42 and $89 for Tier 3, leaving that tier's real gift value well below its cap. You may want to introduce a smaller or mid-priced item to close that gap, or leave it as is.</p>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap">
+      <div class="kicker"><span class="idx">THE INVESTMENT</span><span class="rule"></span></div>
+      <h2 class="h-section">Same pricing as the full proposal, no separate rate for this concept.</h2>
+      <div class="price-compare">
+        <div class="price-card">
+          <div class="k">Strategy Only</div>
+          <div class="v">$1,500 – $2,500</div>
+          <p>Campaign concept, messaging, content calendar. Per campaign.</p>
+        </div>
+        <div class="price-card">
+          <div class="k">Strategy + Execution Support</div>
+          <div class="v">$3,000 – $4,500</div>
+          <p>Adds content direction, asset review, launch coordination. Per campaign.</p>
+        </div>
+      </div>
+      <p class="note">This is LIVINGSTONdrive's fee for building and running the campaign, separate from the bundle pricing above, which is what Muse Maven charges her own clients for the products themselves.</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <h2 class="h-section center-text" style="margin:0 auto;">Next step</h2>
+      <p>Confirm the bundle price, routine order, and gift tiers, and this becomes the centerpiece of the Mother's Day 2027 campaign.</p>
+      <div class="contact-cta">
+        <div class="cc-label">Ready to talk it through?</div>
+        <div class="cc-name">Marline Jackson</div>
+        <div class="cc-title">Founder, LIVINGSTONdrive</div>
+        <a class="cc-email" href="mailto:livingstondrive@icloud.com?subject=Follow-up%20on%20Muse%20Revival%20Series">livingstondrive@icloud.com</a>
+        <div class="cc-phone">(404) 908-2183</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="crosslinks">
+  <div class="wrap">
+    <a class="xlink" href="muse-maven-circle-concept.html">Muse Circle ↗</a>
+    <a class="xlink" href="muse-maven-skin-story-concept.html">Skin Story Series ↗</a>
+    <a class="xlink current" href="#">Muse Revival Series (this page)</a>
+    <a class="xlink" href="https://jaxx2202.github.io/musemaven/">← Back to Full Proposal</a>
+  </div>
+</div>
+
+<footer>
+  Prepared by <b>LIVINGSTONdrive</b> &nbsp;·&nbsp; Muse Revival Series Deep Dive &nbsp;·&nbsp; September 2026
+</footer>
+
+
+<div style="position:fixed;bottom:14px;left:14px;z-index:9999;background:#1C1E19;color:#F4F5F0;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.03em;padding:8px 12px;border-radius:5px;box-shadow:0 4px 14px rgba(0,0,0,.25);line-height:1.4;">
+  <div style="font-weight:600;color:#7DD3A8;">MUSE REVIVAL CONCEPT · v5</div>
+  <div style="opacity:.85;">Removed remaining third-person "Jas" references</div>
+</div>
+</body>
+</html>
